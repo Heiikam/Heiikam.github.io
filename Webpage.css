@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+	 margin: 0;
+    padding: 0;
+}
+header {
+    margin: 0;
+    padding: 0;
+	 background-color: #24252A;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+nav {
+    order: 1;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+.cta {
+    order: 2;
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+.container {
+    max-width: 960;
+	 margin: 0 auto;
+}
+
+.Roblox-bg {
+    width: 100%;
+	 padding-top: 50%;
+    background: url('file:///home/chronos/u-8e3c6ae346d105f544c82e963c3e51f4e3484dd9/MyFiles/Downloads/jason-ortego-TznjqhCHR9g-unsplash.jpg') no-repeat center;
+    background-size: cover; 
+}
+
+h2 {
+    font-size: 3em;
+	 margin: 0;
+	 padding: 0;
+	 text-align: center;
+	 font-family: 'Montserrat';
+	 position: absolute;
+	 left: 50%;
+	 transform: translateX(-50%);
+	 color: white;
+	 background-color: none;
+}
+
+.banner-text {
+    position: absolute;
+	 top: 50%;
+	 left: 30%;
+	 transform: translate('-50%,-50%');
+	 z-index: 5;
+	 width: 45%;
+	 padding: 40px 0;
+	 text-align: center;
+	 border-top-left-radius: 70px;
+	 border-bottom-right-radius: 70px;
+	 background-color: rgb(0,0,0,0.3);
+	 color: #fff;
+	 font-weight: bold;
+	 border: 10px inset #fff;
+}
+
+.banner-text p {
+    padding: 0 8%;
+	 font-family: merienda:
+}
+
