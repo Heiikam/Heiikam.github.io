@@ -77,10 +77,9 @@ button:hover{
 	 margin: 0 auto;
 }
 
-.Roblox-bg {
+.webpage-bg {
     width: 100%;
-	 padding-top: 50%;
-    background: url('file:///home/chronos/u-8e3c6ae346d105f544c82e963c3e51f4e3484dd9/MyFiles/Downloads/jason-ortego-TznjqhCHR9g-unsplash.jpg') no-repeat center;
+    padding-top: 50%;
     background-size: cover; 
 }
 
