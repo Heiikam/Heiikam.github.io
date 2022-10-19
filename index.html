@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Webpage</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<form class="form-container" action="webpage.html" onsubmit="return passcheck()">
+		<p id="error"></p>
+		<h3>Login</h3>
+		<div class="form-grp">
+			<label>Password</label><br>
+			<input type="password" name="password" placeholder="password" required id="pass1">
+			<i class="fa fa-times p_times"></i>
+			<i class="fa fa-check p_check"></i>
+		</div>
+		
+		<div class="form-grp">
+			<input type="submit" name="login-btn" value="Login">
+		</div>
+	</form>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
