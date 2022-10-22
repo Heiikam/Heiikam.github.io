@@ -2,6 +2,24 @@
 // So we don't have ridiculous errors.
 window.onload = function() {
   // Your web app's Firebase configuration
+  // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyD01H8kF9_5-3VKDhD1nshAZgVVT6cWAb4",
+  authDomain: "chxt-6ea0f.firebaseapp.com",
+  projectId: "chxt-6ea0f",
+  storageBucket: "chxt-6ea0f.appspot.com",
+  messagingSenderId: "407148888952",
+  appId: "1:407148888952:web:b9bfdc58e2d8d86593fe8d"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+   
   var firebaseConfig = {
     apiKey: "",
     authDomain: "",
