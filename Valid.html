@@ -1,0 +1,40 @@
+<html>
+
+  <head>
+    <title></title>
+  </head>
+
+  <body>
+    <button>
+      Good Job you passed, now for your reward click me to to go to webpage.
+    </button>
+    <script>
+      var urlobj = new window.URL(window.location)
+      var url = "https://heiikam.github.io/webpage.html?";
+      if (url) {
+        var win;
+
+        document.querySelector('button').onclick = function() {
+          if (win) {
+            win.focus();
+          } else {
+            win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100%';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+          }
+             document.querySelector('button').style.background = 'grey';
+          document.querySelector('button').innerHTML = "Link Opened"
+        };
+      }
+
+    </script>
+  </body>
+
+</html>
